@@ -1,0 +1,36 @@
+.item {
+    width: 500px;
+    padding: 10px 20px;
+
+    background-color: rgb(73, 183, 33);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px 1px black;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+    .date {
+
+    }
+    
+    .title {
+        
+    }
+    
+    .amount {
+    
+    }
+}
+
+.name {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}

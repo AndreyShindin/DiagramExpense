@@ -1,0 +1,32 @@
+.app {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.list {
+    width: 545px;
+    padding: 15px 20px;
+    list-style-type: none;
+
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 4px 7px 10px 2px black;
+}
+
+.creat {
+    margin-bottom: 15px;
+    width: 550px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(73, 183, 33);
+}
+
+.add {
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+.filter {
+    padding: 10px 20px;
+    width: 550px;
+
+    background-color: rgb(73, 183, 33);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px 1px black;
+    
+}
+
+.label {
+    margin-right: 15px;
+}
+
+.select {
+    padding: 5px 10px;
+
+    font-size: 18px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    .option {
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,47 @@
+.create {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+.input {
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.input:nth-child(1) {
+    margin-bottom: 20px;
+}
+.input:nth-child(2) {
+    margin-bottom: 20px;
+}
+.input:nth-child(2n+1) {
+    margin-right: 20px;
+}
+
+.container-add {
+    padding: 0;
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    .add {
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 15px;
+        background-color: rgb(73, 183, 33);
+    }
+    .cancel-create {
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 15px;
+        background-color: rgb(73, 183, 33);
+    }
+}
+
+

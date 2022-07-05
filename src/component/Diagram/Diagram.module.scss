@@ -1,0 +1,16 @@
+.diagram {
+    width: 550px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.list {
+    padding: 1rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+    height: 10rem;
+}
